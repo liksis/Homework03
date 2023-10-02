@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='max-image-preview:large' />
+    <title>Резюме</title>
+</head>
+
+<body>
+    <section>
+        <h2>Перша форма</h2>
+        <form action=" https://fom.in.ua/echo" method="get">
+            <p>
+                <label for="firname">First Name</label>
+                <input type="text" name="first-name" id="firname" placeholder="Enter first name" required>
+            </p>
+
+            <p>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="last-name" id="lastname" placeholder="Enter last name" required>
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+
+            <p>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="27" rows="2" maxlength="200"></textarea>
+            </p>
+
+            <p>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="age">Age</label>
+                <input type="age" name="age" id="age" step="1" min="1" max="150" required>
+            </p>
+
+            <p>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" id="birthday" required>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+</body>
